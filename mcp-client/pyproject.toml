@@ -1,0 +1,14 @@
+[project]
+name = "mcp-client"
+version = "0.1.0"
+description = "MCP Client bridge with FastAPI and Ollama"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastmcp>=3.2.2",
+    "fastapi>=0.115.0",
+    "uvicorn[standard]>=0.34.0",
+    "ollama>=0.5.0",
+    "httpx>=0.28.0",
+    "python-dotenv>=1.2.2",
+]
